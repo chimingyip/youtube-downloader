@@ -1,7 +1,7 @@
 from pytube import YouTube
 
-DEST_PATH = "/Users/USER_NAME/Documents/Youtube"
-link = "https://www.youtube.com/watch?v=Kg-HHXuOBlw"
+link = input("Enter a YouTube video URL: ")
+DEST_PATH = input("Enter a file destination path: ")
 
 try:
     video = YouTube(link).streams[0].download(DEST_PATH)
