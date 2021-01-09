@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-DEST_PATH = "/Users/chi-mingyip/Documents/Youtube"
+DEST_PATH = "/Users/USER_NAME/Documents/Youtube"
 link = "https://www.youtube.com/watch?v=Kg-HHXuOBlw"
 
 try:
